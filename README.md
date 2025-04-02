@@ -10,7 +10,7 @@
 <body class="bg-gray-100">
     <!-- Navbar -->
     <nav class="bg-blue-600 p-4 text-white flex justify-between">
-        <h1 class="text-2xl font-bold">Discover [Country Name]</h1>
+        <h1 class="text-2xl font-bold">AISAN COUNTRY OF [SRILANKA]</h1>
         <ul class="flex space-x-4">
             <li><a href="#about" class="hover:underline">About</a></li>
             <li><a href="#culture" class="hover:underline">Culture</a></li>
