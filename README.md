@@ -6,7 +6,32 @@
     <title>AISAN COUNTRY OF [SRILANKA]</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    /* From Uiverse.io by mobinkakei */ 
+
+</head>
+<body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-blue-600 p-4 text-white flex justify-between">
+        <h1 class="text-2xl font-bold">AISAN COUNTRY OF [SRILANKA]</h1>
+        <ul class="flex space-x-4">
+            <li><a href="#about" class="hover:underline">About</a></li>
+            <li><a href="#culture" class="hover:underline">Culture</a></li>
+            <li><a href="#attractions" class="hover:underline">Attractions</a></li>
+            <li><a href="#contact" class="hover:underline">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="relative h-screen bg-cover bg-center" style="background-image: url('https://source.unsplash.com/1600x900/?nature,landscape')">
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white">
+            <h2 class="text-5xl font-bold">Welcome to [Country Name]</h2>
+            <p class="text-xl mt-2">Explore the beauty, culture, and history of our nation.</p>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="p-8 text-center">
+        <h2 class="text-3xl font-bold">About [Country Name]</h2>
+        /* From Uiverse.io by mobinkakei */ 
 .wrapper {
   width: 200px;
   height: 60px;
@@ -96,30 +121,6 @@
   animation-delay: .3s;
 }
 
-</head>
-<body class="bg-gray-100">
-    <!-- Navbar -->
-    <nav class="bg-blue-600 p-4 text-white flex justify-between">
-        <h1 class="text-2xl font-bold">AISAN COUNTRY OF [SRILANKA]</h1>
-        <ul class="flex space-x-4">
-            <li><a href="#about" class="hover:underline">About</a></li>
-            <li><a href="#culture" class="hover:underline">Culture</a></li>
-            <li><a href="#attractions" class="hover:underline">Attractions</a></li>
-            <li><a href="#contact" class="hover:underline">Contact</a></li>
-        </ul>
-    </nav>
-    
-    <!-- Hero Section -->
-    <section class="relative h-screen bg-cover bg-center" style="background-image: url('https://source.unsplash.com/1600x900/?nature,landscape')">
-        <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white">
-            <h2 class="text-5xl font-bold">Welcome to [Country Name]</h2>
-            <p class="text-xl mt-2">Explore the beauty, culture, and history of our nation.</p>
-        </div>
-    </section>
-    
-    <!-- About Section -->
-    <section id="about" class="p-8 text-center">
-        <h2 class="text-3xl font-bold">About [Country Name]</h2>
         <p class="mt-4 text-gray-700">[Add information about the country’s history, geography, and significance]</p>
     </section>
     
