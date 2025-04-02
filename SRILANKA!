@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<WELCOME!MY WEB SITE>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
