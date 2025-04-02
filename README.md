@@ -3,6 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Pattern</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #222;
+            color: white;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+            text-align: center;
+            flex-direction: column;
+        }
+        .pattern {
+            display: grid;
+            grid-template-columns: repeat(7, auto);
+            gap: 10px;
+            font-size: 24px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .pattern span {
+            animation: fadeIn 2s infinite alternate;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0.3; }
+            100% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="pattern">
+        <span>W</span> <span>E</span> <span>L</span> <span>C</span> <span>O</span> <span>M</span> <span>E</span>
+    </div>
+    <br>
+    <div class="pattern">
+        <span>M</span> <span>Y</span>&nbsp;<span>W</span> <span>E<span> <span>B<span>&nbsp;&nbsp;  <span>P</span> <span>A</span> </span>G<span>
+</body>
+</html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discover [Country Name]</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
